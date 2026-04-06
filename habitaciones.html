@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habitaciones y Hospedaje | El Encanto</title>
+    <meta name="description"
+        content="Conoce las opciones de hospedaje en El Encanto. Habitaciones cómodas y una majestuosa suite nupcial.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo"><img src="logo.png" alt="El Encanto"></a>
+            <ul class="nav-links">
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+                <li><a href="index.html#galeria">Galería</a></li>
+                <li><a href="habitaciones.html">Habitaciones</a></li>
+                <li><a href="index.html#contacto" class="btn-outline">Reservar</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" style="background-image: url('imgs/IMG_9763.webp'); height: 60vh;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in">
+            <h2 class="title" style="font-size: 4rem; margin-bottom: 0;">Nuestras Habitaciones</h2>
+        </div>
+    </header>
+
+    <section class="rooms" style="padding-top: 6rem; padding-bottom: 8rem;">
+        <div class="section-header fade-in">
+            <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto; color: #555;">Descubre el confort y la elegancia que ofrecemos para ti y tus invitados especiales, permitiéndoles disfrutar al máximo sin tener que preocuparse por el regreso a casa tras una celebración inolvidable.</p>
+        </div>
+        <div class="rooms-container">
+            <div class="room-item fade-in" style="animation-delay: 0.1s">
+                <div class="room-image">
+                    <img src="imgs/IMG_9763.webp" alt="Suite Nupcial">
+                </div>
+                <div class="room-info">
+                    <h4>Suite Nupcial "El Encanto"</h4>
+                    <p>El refugio perfecto para la pareja antes y después del gran evento. Amplia, iluminada y con detalles pensados exclusivamente para el romance. Equipada con áreas de preparación para la novia, jacuzzi privado, cama king size y amenidades de lujo.</p>
+                    <ul class="room-features">
+                        <li><span>🛏️</span> Cama King Size Premium</li>
+                        <li><span>🛁</span> Jacuzzi privado</li>
+                        <li><span>🍾</span> Champaña de cortesía</li>
+                        <li><span>👗</span> Área de maquillaje</li>
+                        <li><span>🌅</span> Vista a los jardines</li>
+                        <li><span>🍽️</span> Desayuno privado</li>
+                    </ul>
+                    <a href="index.html#contacto" class="btn-outline room-btn">Reservar Suite</a>
+                </div>
+            </div>
+            
+            <div class="room-item fade-in" style="animation-delay: 0.3s">
+                <div class="room-info">
+                    <h4>Villas Familiares</h4>
+                    <p>Espacios diseñados para grupos familiares o amigos íntimos. Cercanas a la zona principal pero conservando la tranquilidad del campo. Cuentan con sala de estar, baño amplio y varias camas para convivir cómodamente previo al evento.</p>
+                    <ul class="room-features">
+                        <li><span>🛏️</span> 2 Camas Queen Size</li>
+                        <li><span>🛋️</span> Sala de estar privada</li>
+                        <li><span>🚿</span> Baño amplio equipado</li>
+                        <li><span>📺</span> Pantalla de TV</li>
+                        <li><span>☕</span> Estación de café</li>
+                    </ul>
+                    <a href="index.html#contacto" class="btn-outline room-btn">Consultar Disponibilidad</a>
+                </div>
+                <div class="room-image">
+                    <img src="imgs/IMG_9626.webp" alt="Villa Familiar">
+                </div>
+            </div>
+
+            <div class="room-item fade-in" style="animation-delay: 0.5s">
+                <div class="room-image">
+                    <img src="imgs/IMG_9641.webp" alt="Habitaciones para invitados">
+                </div>
+                <div class="room-info">
+                    <h4>Habitaciones Clásicas</h4>
+                    <p>Asegúrate de que tus invitados descansen de forma segura después de una gran celebración. Habitaciones prácticas, acogedoras y con estándar hotelero. Ideales para un buen descanso en un entorno silencioso y natural.</p>
+                    <ul class="room-features">
+                        <li><span>🛏️</span> Cama Matrimonial o Doble</li>
+                        <li><span>🚿</span> Baño Privado</li>
+                        <li><span>📶</span> Wi-Fi de alta velocidad</li>
+                        <li><span>👗</span> Plancha (a solicitud)</li>
+                    </ul>
+                    <a href="index.html#contacto" class="btn-outline room-btn">Consultar Disponibilidad</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo"><img src="logo.png" alt="El Encanto"></div>
+            <p>&copy; 2026 El Encanto Jardín de Eventos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/525512345678" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contáctanos por WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zM223.9 414.7c-33.1 0-65.5-8.9-94-25.7l-6.7-4-69.8 18.3L72 334.8l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+    </a>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
